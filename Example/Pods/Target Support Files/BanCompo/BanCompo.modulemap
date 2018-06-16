@@ -1,0 +1,6 @@
+framework module BanCompo {
+  umbrella header "BanCompo-umbrella.h"
+
+  export *
+  module * { export * }
+}

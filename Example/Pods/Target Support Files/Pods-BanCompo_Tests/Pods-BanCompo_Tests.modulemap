@@ -1,0 +1,6 @@
+framework module Pods_BanCompo_Tests {
+  umbrella header "Pods-BanCompo_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -13,14 +13,14 @@
 
 /* Begin PBXFileReference section */
 		209E31F2632F605765893E06 /* Pods_BanCompo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BanCompo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		50DF23BB0052095041538827 /* BanCompo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BanCompo.podspec; path = ../BanCompo.podspec; sourceTree = "<group>"; };
+		50DF23BB0052095041538827 /* BanCompo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BanCompo.podspec; path = ../BanCompo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACE51AFB9204008FA782 /* BanCompo_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BanCompo_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		CB62952EAABF05EBC86AA3EC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CB62952EAABF05EBC86AA3EC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D61181E9939F02F32F5F52AF /* Pods-BanCompo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BanCompo_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BanCompo_Tests/Pods-BanCompo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EBA3976FE7945C0BE662A10C /* Pods-BanCompo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BanCompo_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BanCompo_Tests/Pods-BanCompo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EF51A1F029B77151A562469E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EF51A1F029B77151A562469E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;

@@ -1,0 +1,16 @@
+PODS:
+  - BanCompo (0.1.0)
+
+DEPENDENCIES:
+  - BanCompo (from `../`)
+
+EXTERNAL SOURCES:
+  BanCompo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BanCompo: f0462080ea35dbe3ae72766d196875b913de7e60
+
+PODFILE CHECKSUM: 7fc490fde046dc9b52531a05ce3b3a9c2e8ec706
+
+COCOAPODS: 1.5.3
