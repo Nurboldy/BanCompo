@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'BanCompo'
-    s.version          = '0.1.0'
+    s.version          = '0.2.0'
     s.summary          = 'First Pod Lib.'
     s.description      = <<-DESC
 First Pod Lib. Anchors Wow.
@@ -9,7 +9,7 @@ First Pod Lib. Anchors Wow.
     s.homepage         = 'https://github.com/Nurboldy/BanCompo'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'Nurboldy' => 'Bnurboldy@gmail.com' }
-    s.source           = { :git => 'https://github.com/Nurboldy/BanCompo.git', :tag => "0.1.0" }
+    s.source           = { :git => 'https://github.com/Nurboldy/BanCompo.git', :tag => "0.2.0" }
     
     s.ios.deployment_target = '11.4'
     
