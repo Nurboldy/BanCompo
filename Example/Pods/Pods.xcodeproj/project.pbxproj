@@ -8,11 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		1BAA357B7A995E3B8AB9E91DEAC590FB /* Pods-BanCompo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8492D314E644EB35B34A632DE2C7F16A /* Pods-BanCompo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2984E9E546AC9007B9B70B0D9A921B90 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B745AD690E7A91DA815B4F2AACAB5D6 /* ReplaceMe.swift */; };
 		4F73195C7DA6A918B3FA692C17D70792 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		6F61EDEB0E3731AF0937A82A1A068DA5 /* Pods-BanCompo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2363AE4EBFC40B51CA552D349FC5700 /* Pods-BanCompo_Tests-dummy.m */; };
 		807A937FEB28961A4D8A4DDA3396CA7A /* BanCompo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B2138FE66AAF20528073AA8DAE0BB3 /* BanCompo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD42FE7D7BCA9CC0DBCCC3FD6FE4F106 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		BDC6239520D532DC0097E427 /* CachedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC6239420D532DC0097E427 /* CachedImageView.swift */; };
+		BDC6239920D5333F0097E427 /* DatasourceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC6239820D5333F0097E427 /* DatasourceCell.swift */; };
+		BDC6239B20D5338E0097E427 /* Datasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC6239A20D5338E0097E427 /* Datasource.swift */; };
+		BDC6239D20D533AF0097E427 /* DatasourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC6239C20D533AF0097E427 /* DatasourceController.swift */; };
+		BDC6239F20D533DF0097E427 /* DefaultCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC6239E20D533DF0097E427 /* DefaultCells.swift */; };
+		BDC623A120D534050097E427 /* DiscardableImageCacheItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC623A020D534050097E427 /* DiscardableImageCacheItem.swift */; };
+		BDC623A520D534410097E427 /* LBTALabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC623A420D534410097E427 /* LBTALabel.swift */; };
+		BDC623A720D534680097E427 /* LBTATextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC623A620D534680097E427 /* LBTATextView.swift */; };
+		BDC623A920D5348C0097E427 /* NSMutableAttributedString+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC623A820D5348C0097E427 /* NSMutableAttributedString+Helper.swift */; };
+		BDC623AB20D534A90097E427 /* UIButton+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC623AA20D534A90097E427 /* UIButton+Helper.swift */; };
+		BDC623AD20D534E30097E427 /* UIColor+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC623AC20D534E30097E427 /* UIColor+Helper.swift */; };
+		BDC623B120D535420097E427 /* UIImage+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC623B020D535420097E427 /* UIImage+Helper.swift */; };
+		BDC623B320D535610097E427 /* UIView+Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC623B220D535610097E427 /* UIView+Anchors.swift */; };
 		F3E1EE06B092363C0450A3AC39658775 /* BanCompo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAEA75DCA7636F0860DEB69AF5D4B84 /* BanCompo-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -29,10 +41,9 @@
 /* Begin PBXFileReference section */
 		038712198E6CD04C3C0D8A12650DA809 /* BanCompo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BanCompo.xcconfig; sourceTree = "<group>"; };
 		26627EA6BD6A38CB8F922F0A79F8735B /* BanCompo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BanCompo.modulemap; sourceTree = "<group>"; };
-		2B745AD690E7A91DA815B4F2AACAB5D6 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = BanCompo/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		2F28F71AD6617F24C29208C856E39310 /* BanCompo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = BanCompo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2F28F71AD6617F24C29208C856E39310 /* BanCompo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = BanCompo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		38C2C316C6AFC64ADB6F6BDDFDA1B933 /* Pods-BanCompo_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BanCompo_Tests-resources.sh"; sourceTree = "<group>"; };
-		586E4E1C8C3B160979D1A648C7ACE390 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		586E4E1C8C3B160979D1A648C7ACE390 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		58B2138FE66AAF20528073AA8DAE0BB3 /* BanCompo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BanCompo-umbrella.h"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		62AB43CFCAD27065E65D74AA71C5390B /* Pods-BanCompo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BanCompo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -40,17 +51,30 @@
 		7A1E98D3E899E5D3B67A056CCDEEF538 /* Pods-BanCompo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BanCompo_Tests.modulemap"; sourceTree = "<group>"; };
 		7AE4310640E96AF48B642A67CFEC573A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8492D314E644EB35B34A632DE2C7F16A /* Pods-BanCompo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BanCompo_Tests-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2363AE4EBFC40B51CA552D349FC5700 /* Pods-BanCompo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BanCompo_Tests-dummy.m"; sourceTree = "<group>"; };
 		AAAEA75DCA7636F0860DEB69AF5D4B84 /* BanCompo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BanCompo-dummy.m"; sourceTree = "<group>"; };
-		BC9FA8CC4541261C6B3CCD60359B87E4 /* BanCompo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BanCompo.framework; path = BanCompo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC9FA8CC4541261C6B3CCD60359B87E4 /* BanCompo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BanCompo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDC6239420D532DC0097E427 /* CachedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CachedImageView.swift; path = BanCompo/Classes/CachedImageView.swift; sourceTree = "<group>"; };
+		BDC6239820D5333F0097E427 /* DatasourceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DatasourceCell.swift; path = BanCompo/Classes/DatasourceCell.swift; sourceTree = "<group>"; };
+		BDC6239A20D5338E0097E427 /* Datasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Datasource.swift; path = BanCompo/Classes/Datasource.swift; sourceTree = "<group>"; };
+		BDC6239C20D533AF0097E427 /* DatasourceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DatasourceController.swift; path = BanCompo/Classes/DatasourceController.swift; sourceTree = "<group>"; };
+		BDC6239E20D533DF0097E427 /* DefaultCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DefaultCells.swift; path = BanCompo/Classes/DefaultCells.swift; sourceTree = "<group>"; };
+		BDC623A020D534050097E427 /* DiscardableImageCacheItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DiscardableImageCacheItem.swift; path = BanCompo/Classes/DiscardableImageCacheItem.swift; sourceTree = "<group>"; };
+		BDC623A420D534410097E427 /* LBTALabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LBTALabel.swift; path = BanCompo/Classes/LBTALabel.swift; sourceTree = "<group>"; };
+		BDC623A620D534680097E427 /* LBTATextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LBTATextView.swift; path = BanCompo/Classes/LBTATextView.swift; sourceTree = "<group>"; };
+		BDC623A820D5348C0097E427 /* NSMutableAttributedString+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "NSMutableAttributedString+Helper.swift"; path = "BanCompo/Classes/NSMutableAttributedString+Helper.swift"; sourceTree = "<group>"; };
+		BDC623AA20D534A90097E427 /* UIButton+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIButton+Helper.swift"; path = "BanCompo/Classes/UIButton+Helper.swift"; sourceTree = "<group>"; };
+		BDC623AC20D534E30097E427 /* UIColor+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIColor+Helper.swift"; path = "BanCompo/Classes/UIColor+Helper.swift"; sourceTree = "<group>"; };
+		BDC623B020D535420097E427 /* UIImage+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIImage+Helper.swift"; path = "BanCompo/Classes/UIImage+Helper.swift"; sourceTree = "<group>"; };
+		BDC623B220D535610097E427 /* UIView+Anchors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIView+Anchors.swift"; path = "BanCompo/Classes/UIView+Anchors.swift"; sourceTree = "<group>"; };
 		C3FED422359792BA27057E1D588EF258 /* Pods-BanCompo_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BanCompo_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		C4A32EB433638B24C10E529A172AB548 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D33D945ED8AD5FD54AC388D118545E35 /* Pods-BanCompo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BanCompo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D60927411EF9DD21BEAAB6C4D15C6771 /* Pods-BanCompo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BanCompo_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D6C8B8FCD4C3E033E6F76E771AE612D3 /* Pods_BanCompo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BanCompo_Tests.framework; path = "Pods-BanCompo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6C8B8FCD4C3E033E6F76E771AE612D3 /* Pods_BanCompo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BanCompo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC812BD2F321633629C3C0262C05DC96 /* BanCompo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BanCompo-prefix.pch"; sourceTree = "<group>"; };
-		ED3B863F860F4ED7340705D2816EB130 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		ED3B863F860F4ED7340705D2816EB130 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,9 +151,21 @@
 		A6ABBE94A237BDAEBFE5DF130ECF4979 /* BanCompo */ = {
 			isa = PBXGroup;
 			children = (
-				2B745AD690E7A91DA815B4F2AACAB5D6 /* ReplaceMe.swift */,
 				324EF223D386139D4F1DEE534833658A /* Pod */,
 				3E0D4DFDA1E26D3BCD5FD2913CCB152A /* Support Files */,
+				BDC6239420D532DC0097E427 /* CachedImageView.swift */,
+				BDC6239820D5333F0097E427 /* DatasourceCell.swift */,
+				BDC6239A20D5338E0097E427 /* Datasource.swift */,
+				BDC6239C20D533AF0097E427 /* DatasourceController.swift */,
+				BDC6239E20D533DF0097E427 /* DefaultCells.swift */,
+				BDC623A020D534050097E427 /* DiscardableImageCacheItem.swift */,
+				BDC623A420D534410097E427 /* LBTALabel.swift */,
+				BDC623A620D534680097E427 /* LBTATextView.swift */,
+				BDC623A820D5348C0097E427 /* NSMutableAttributedString+Helper.swift */,
+				BDC623AA20D534A90097E427 /* UIButton+Helper.swift */,
+				BDC623AC20D534E30097E427 /* UIColor+Helper.swift */,
+				BDC623B020D535420097E427 /* UIImage+Helper.swift */,
+				BDC623B220D535610097E427 /* UIView+Anchors.swift */,
 			);
 			name = BanCompo;
 			path = ../..;
@@ -243,6 +279,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					B8325504D57D69936B2171ABF1A4DBF1 = {
+						LastSwiftMigration = 0940;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -275,8 +316,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDC623A720D534680097E427 /* LBTATextView.swift in Sources */,
+				BDC6239520D532DC0097E427 /* CachedImageView.swift in Sources */,
+				BDC623A920D5348C0097E427 /* NSMutableAttributedString+Helper.swift in Sources */,
+				BDC623A120D534050097E427 /* DiscardableImageCacheItem.swift in Sources */,
+				BDC6239F20D533DF0097E427 /* DefaultCells.swift in Sources */,
+				BDC6239920D5333F0097E427 /* DatasourceCell.swift in Sources */,
+				BDC623B120D535420097E427 /* UIImage+Helper.swift in Sources */,
+				BDC6239D20D533AF0097E427 /* DatasourceController.swift in Sources */,
+				BDC623A520D534410097E427 /* LBTALabel.swift in Sources */,
+				BDC6239B20D5338E0097E427 /* Datasource.swift in Sources */,
+				BDC623AB20D534A90097E427 /* UIButton+Helper.swift in Sources */,
 				F3E1EE06B092363C0450A3AC39658775 /* BanCompo-dummy.m in Sources */,
-				2984E9E546AC9007B9B70B0D9A921B90 /* ReplaceMe.swift in Sources */,
+				BDC623AD20D534E30097E427 /* UIColor+Helper.swift in Sources */,
+				BDC623B320D535610097E427 /* UIView+Anchors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +447,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 038712198E6CD04C3C0D8A12650DA809 /* BanCompo.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -406,7 +460,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/BanCompo/BanCompo-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/BanCompo/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/BanCompo/BanCompo.modulemap";
 				PRODUCT_MODULE_NAME = BanCompo;
@@ -520,6 +574,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 038712198E6CD04C3C0D8A12650DA809 /* BanCompo.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -532,7 +587,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/BanCompo/BanCompo-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/BanCompo/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/BanCompo/BanCompo.modulemap";
 				PRODUCT_MODULE_NAME = BanCompo;

@@ -1,5 +1,5 @@
 import XCTest
-import BanCompo
+
 
 class Tests: XCTestCase {
     
