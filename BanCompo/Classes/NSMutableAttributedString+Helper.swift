@@ -28,6 +28,6 @@ extension NSMutableAttributedString {
     
     func setParagraphStyle(paragraphStyle: NSParagraphStyle) {
         let range = NSMakeRange(0, string.count)
-        addAttribute(NSAttributedStringKey.paragraphStyle, value: paragraphStyle, range: range)
+        addAttribute(NSAttributedString.Key.paragraphStyle, value: paragraphStyle, range: range)
     }
 }
